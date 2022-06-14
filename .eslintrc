@@ -1,0 +1,22 @@
+{
+  "extends": ["plugin:prettier/recommended", "plugin:react/recommended"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/prop-types": 0
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "parser": "babel-eslint",
+    "ecmaVersion": 2018
+  }
+}
